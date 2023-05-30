@@ -12,7 +12,7 @@
 }
 body{
   margin:0%;
-  background-image: url(../public/assets/img/bg.jpg);
+  background-image: url(./img/bg.jpg);
 }
 .App{
     /*overflow: hidden;*/
