@@ -12,9 +12,7 @@
     padding: 2rem, 2rem;
 }
 #intro>img {
-    width: 14vw;
-    height: 30vh;
-    margin-top: 4rem;
+    margin-top: 7.5rem;
     box-shadow: none;
     border-radius: 100%;
     border: 2px solid var(--deepBlue);
@@ -22,19 +20,19 @@
 #intro-title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 2rem;
-    font-size: 24px;
+    font-size: 28px;
     color: rgb(245, 92, 92);
-    font-weight: bold;
+    font-weight: bolder;
 }
 #intro-summary {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
     text-align: center;
     color: white;
     font-weight: normal;
-    padding: 0 8vw;
+    padding: 0 6vw;
     margin-top: 0.5rem;
-    line-height: 20px;
+    line-height: 24px;
 }
 #resume-link {
     margin-top: 3rem;
