@@ -1,18 +1,19 @@
 .skills {
-    margin: 2rem 15vw;
+    margin: 0em 10vw;
     display: flex;
     flex-direction: column;
     height: auto;
     padding: 3em 3em;
     color: rgb(15, 1, 1);
-    background-color: rgb(237, 240, 243);
-    box-shadow: rgba(3, 8, 31, 0.692) 0px 3px 6px, rgba(250, 241, 241, 0.23) 0px 3px 6px;
+    /*background-color: rgb(237, 240, 243);*/
+    /*box-shadow: rgba(3, 8, 31, 0.692) 0px 3px 6px, rgba(250, 241, 241, 0.23) 0px 3px 6px;*/
 }
 .skills>h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     margin-top: 2rem;
     padding: 0 2em;
+    color: var(--navColor);
 }
 .skillsGrid {
     display: grid;
@@ -22,7 +23,6 @@
     height: auto;
     margin-top: 2rem;
     align-self: center;
-    margin-bottom: 4rem;
 }
 .skillsGrid img {
     height: 100px;
@@ -33,7 +33,7 @@
 /* Medium Screens min width 641px change to 4 columns */
 @media screen and (max-width: 800px) {
   .skills {
-    margin: 0 0;
+    /*margin: 0 0;*/
     padding: 3em 3em;
     text-align: center;
   }

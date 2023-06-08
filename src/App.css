@@ -12,7 +12,8 @@
 }
 body{
   margin:0%;
-  background-image: url(./img/bg.jpg);
+  /*background-image: url(./img/bg.jpg);*/
+
 }
 .App{
     /*overflow: hidden;*/
@@ -27,6 +28,7 @@ body{
   padding:10px 5px 10px 5px;
   background-color: var(--deepBlue);
   text-shadow: 1px 1px 1px rgb(60, 56, 97), 1px 1px 1px rgb(155, 122, 122);
+  
 }
 .button:hover{
   background: rgb(237, 236, 243);

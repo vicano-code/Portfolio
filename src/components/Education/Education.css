@@ -1,0 +1,25 @@
+#education {
+    background-color: rgb(218, 232, 235);
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: left;
+    line-height: normal;
+}
+table {
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding: 20px;
+}
+td {
+    padding: 4px;
+}
+th {
+    font-size: medium;
+}

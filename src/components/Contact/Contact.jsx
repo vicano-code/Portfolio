@@ -21,13 +21,8 @@ const Contact = () => {
     };
 
     return (
-        <div className="contact-form" id="Contact" >
-            <div className="c-left">
-                <div id="contactme">
-                    <h2>Contact me</h2>
-                </div>
-            </div>
-
+        <section className="contact-form">
+            <h2>Contact me</h2>
             <div className="c-form">
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="user_name" className="user" placeholder="Name" />
@@ -39,7 +34,7 @@ const Contact = () => {
                 </form>
             </div>
 
-        </div>
+        </section>
     );
 };
 

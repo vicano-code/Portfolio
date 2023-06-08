@@ -2,11 +2,11 @@
     display: flex; 
     flex-direction: column;
     height: auto;
-    margin: 0 15vw;
+    margin: 0 10vw;
     padding: 3em 3em;    
-    color: white;
-    background-color: rgb(13, 102, 102);
-    box-shadow: rgba(243, 237, 237, 0.16) 0px 3px 6px, rgba(231, 225, 225, 0.23) 0px 3px 6px;
+    /*color: white;
+    background-color: rgb(13, 102, 102);*/
+    /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;*/
 }
 #about-title {
     margin-top: 2rem;
@@ -15,18 +15,19 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     padding-left: 2em;
+    color: var(--navColor)
 }
 
 #about {
+    display: flex;
+    flex-flow: column;
     padding: 0 4vw;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     font-weight: normal;
     text-align: justify;
     line-height: 40px;
-    margin-bottom: 8rem;
 }
-
 a {
     display: flex;
     align-items: center;

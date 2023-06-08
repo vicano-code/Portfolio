@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    padding:3em 15vw;
-    color: wheat;
+    margin: 0 10vw;
+    padding:3em 3em;
+
 }
 #Portfolio>h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     padding-left: 2em;
+    color: var(--navColor);
 }
 #projects {
     display: grid;
@@ -20,8 +22,8 @@
     flex-flow: column;
     align-items: center;
     margin: 2vh 2rem;
-    background-color: rgb(71, 161, 173);
-    box-shadow: rgba(184, 178, 178, 0.16) 0px 3px 6px, rgba(241, 231, 231, 0.23) 0px 3px 6px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 #cardTitle{
     display: flex;
