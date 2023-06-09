@@ -36,7 +36,12 @@ body{
   color: rgb(5, 2, 31);
   border: 1px solid var(--gray);
 }
-
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  padding-left: 2em;
+  color: var(--navColor)
+}
 @media screen and (min-width: 1480px) {
   body{
     margin:0%;

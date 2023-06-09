@@ -8,13 +8,6 @@
     padding: 3em 3em;
 }
 
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    color: var(--navColor);
-    text-align: left;
-    margin-bottom: 3em;
-}
 .c-form{
     display: flex;
     justify-content: center;

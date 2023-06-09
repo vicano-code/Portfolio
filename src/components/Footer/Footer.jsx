@@ -11,13 +11,13 @@ const Footer = () => {
             <div className="f-content">
                 <span>vc.anokwuru@gmail.com</span>
                 <div className="f-icons">
-                    <a href="https://www.linkedin.com/in/victor-anokwuru-19091a81/" target="_blank">
+                    <a href="https://www.linkedin.com/in/victor-anokwuru-19091a81/" target="_blank" rel="noreferrer">
                         <Linkedin color='white' size='3rem' />
                     </a>
-                    <a href="https://www.facebook.com/anokwuru.victor" target="_blank">
+                    <a href="https://www.facebook.com/anokwuru.victor" target="_blank" rel="noreferrer">
                         <Facebook color='white' size='3rem' />
                     </a>
-                    <a href="https://github.com/vicano-code" target="_blank">
+                    <a href="https://github.com/vicano-code" target="_blank" rel="noreferrer">
                         <Github color='white' size='3rem' />
                     </a>
                 </div>

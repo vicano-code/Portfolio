@@ -6,12 +6,7 @@
     padding:3em 3em;
 
 }
-#Portfolio>h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    padding-left: 2em;
-    color: var(--navColor);
-}
+
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;

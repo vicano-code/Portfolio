@@ -9,13 +9,7 @@
     /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;*/
 }
 #about-title {
-    margin-top: 2rem;
-}
-#about-title>h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    padding-left: 2em;
-    color: var(--navColor)
+    /*margin-top: 2rem;*/
 }
 
 #about {

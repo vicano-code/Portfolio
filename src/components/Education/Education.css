@@ -11,14 +11,17 @@
     text-align: left;
     line-height: normal;
 }
+#education>h2 {
+    padding-left: 0
+}
 table {
     width: 90%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
-    padding: 20px;
+    padding: 10px;
 }
 td {
-    padding: 4px;
+    padding: 6px;
 }
 th {
     font-size: medium;

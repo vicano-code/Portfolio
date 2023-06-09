@@ -4,8 +4,8 @@ import Education from '../Education/Education';
 
 const About = () => {
     return (
-        <div className="AboutPage">
-            <div id="about-title"><h2>About Me</h2></div>
+        <section className="AboutPage">
+            <h2>About Me</h2>
             <div id="about">
                 <div>
                     <p>I hold a BSc in Petroleum Engineering from the Federal University of Technology Owerri in Nigeria and an MSc in Petroleum Engineering from the University of Stavanger in Norway. </p>
@@ -15,7 +15,7 @@ const About = () => {
                 <Education />
                 
             </div>
-        </div>
+        </section>
     );
 };
 
