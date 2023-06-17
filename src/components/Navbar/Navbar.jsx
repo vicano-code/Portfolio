@@ -29,15 +29,13 @@ const Navbar = () => {
                         <Link spy={true} to='Portfolio' smooth={true} activeClass="activeClass">
                             <li>Projects</li>
                         </Link>
-
+                        <Link spy={true} to='contact-form' smooth={true} activeClass="activeClass">
+                            <button className="button n-button">
+                                Contact
+                            </button>
+                        </Link>
                     </ul>
                 </div>
-                <Link spy={true} to='contact-form' smooth={true} activeClass="activeClass">
-                    <button className="button n-button">
-                        Contact
-                    </button>
-                </Link>
-
             </div>
         </div>
     )

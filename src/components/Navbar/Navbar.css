@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     padding: 1em 3em;
-    background-color: whitesmoke;
+    background-color: rgb(4, 41, 41);;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .n-left {
@@ -24,14 +24,14 @@
     justify-content: center;    
     font-family: cursive;
     font-weight: bold;
-    color: var(--deepBlue);
+    color: rgb(245, 92, 92);
 }
 
 .n-right {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    gap: 2em;
+    margin-top: -1.3em;
     margin-right: 5rem;
 }
 
@@ -41,7 +41,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     font-size: normal;
-    color: var(--navColor);
+    color: white;
 }
 
 li:hover {
@@ -50,19 +50,19 @@ li:hover {
     font-weight: bolder;
 }
 
-.n-button {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
 @media screen and (max-width: 640px) {
     .n-wrapper {
         margin: 0 0;
         height: 10vh;
         display: flex;
         justify-content: space-between;
+    }
+    .n-right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -1.3em;
+        margin-right: 2rem;
     }
     .n-list {
         display: none;
