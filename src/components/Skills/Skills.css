@@ -1,12 +1,11 @@
 .skills {
-    margin: 0em 10vw;
+    margin: auto;
     display: flex;
     flex-direction: column;
     height: auto;
-    padding: 3em 3em;
+    padding: 3em 12vw;
     color: rgb(15, 1, 1);
-    /*background-color: rgb(237, 240, 243);*/
-    /*box-shadow: rgba(3, 8, 31, 0.692) 0px 3px 6px, rgba(250, 241, 241, 0.23) 0px 3px 6px;*/
+    background-image: url("../../img/bg4.jpg");
 }
 
 .skillsGrid {

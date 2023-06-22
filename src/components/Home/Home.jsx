@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import Vic from '../../img/Victor_Pic.jpg';
+import Vic from '../../img/Vic_Passport.jpg';
 import Resume from './Resume_Victor Anokwuru.pdf'
 
 const Intro = () => {

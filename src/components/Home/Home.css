@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
+    background-image: url("../../img/bg4.jpg");
 }
 #intro {
     display: flex;
@@ -44,10 +46,9 @@
     }
   }
 #intro-summary {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
     font-size: normal;
     text-align: center;
-    /*color: white;*/
     font-weight: normal;
     padding: 0 20vw;
     margin-top: 0.5rem;

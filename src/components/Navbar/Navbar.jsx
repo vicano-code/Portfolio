@@ -14,24 +14,24 @@ const Navbar = () => {
                 <div className="n-list">
                     <ul style={{ listStyleType: "none" }}>
                         <Link spy={true} to='introPage' smooth={true} activeClass="activeClass">
-                            <li>Home</li>
+                            <li>HOME</li>
                         </Link>
                         <Link spy={true} to='AboutPage' smooth={true} activeClass="activeClass">
-                            <li>About</li>
+                            <li>ABOUT</li>
                         </Link>
                         <Link spy={true} to='education' smooth={true} activeClass="activeClass">
-                            <li>Education</li>
+                            <li>EDUCATION</li>
                         </Link>
                         <Link spy={true} to='skills' smooth={true} activeClass="activeClass">
-                            <li>Skills</li>
+                            <li>SKILLS</li>
                         </Link>
 
                         <Link spy={true} to='Portfolio' smooth={true} activeClass="activeClass">
-                            <li>Projects</li>
+                            <li>PROJECTS</li>
                         </Link>
                         <Link spy={true} to='contact-form' smooth={true} activeClass="activeClass">
                             <button className="button n-button">
-                                Contact
+                                CONTACT
                             </button>
                         </Link>
                     </ul>

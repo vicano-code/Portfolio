@@ -23,6 +23,14 @@ const Education = () => {
                             <td>JavaScript Algorithms and Data Structures (freeCodeCamp)</td>
                         </tr>
                         <tr>
+                            <td>May 2022</td>
+                            <td>Responsive Web Design (freeCodeCamp)</td>
+                        </tr>
+                        <tr>
+                            <td>November 2021</td>
+                            <td>IBM Data Science (Coursera)</td>
+                        </tr>
+                        <tr>
                             <td>2013 - 2015 </td>
                             <td>MSc Petroleum Engineering, University of Stavanger, Norway</td>
                         </tr>

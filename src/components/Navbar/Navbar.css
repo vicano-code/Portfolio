@@ -1,14 +1,15 @@
 .n-wrapper {
-    /*overflow: hidden;*/
+    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 6vh;
+    height: 50px;
     display: flex;
     justify-content: center;
     padding: 1em 3em;
     background-color: rgb(4, 41, 41);;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    z-index: 300;
 }
 .n-left {
     display: flex;
@@ -31,7 +32,7 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    margin-top: -1.3em;
+    margin-top: -0.8rem;
     margin-right: 5rem;
 }
 
@@ -40,16 +41,15 @@
     gap: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
-    font-size: normal;
+    font-size: small;
     color: white;
 }
 
 li:hover {
     cursor: pointer;
-    transform: scale(1.1);
-    font-weight: bolder;
+    font-weight: bold;
+    color: red;
 }
-
 @media screen and (max-width: 640px) {
     .n-wrapper {
         margin: 0 0;

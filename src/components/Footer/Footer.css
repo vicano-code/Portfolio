@@ -2,6 +2,7 @@
     display: flex;
     height: 300px;
     background-color: rgb(4, 41, 41);
+    color: white;
 }
 .f-content{
     position: relative;
@@ -12,7 +13,6 @@
     width: 100%;
     margin-top: 4rem;
     gap: 4rem;
-    color: rgb(12, 93, 107);
 }
 .f-icons{
     display: flex;
