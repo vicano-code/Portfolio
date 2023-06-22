@@ -6,7 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import WebShop from "./img/webshop.PNG";
+import WebShop from "./img/webshop3.PNG";
 import CountdownTimer from "./img/CountdownTimer.PNG";
 import JavaScriptCalculator from "./img/JavaScriptCalculator.PNG";
 import DrumMachine from "./img/DrumMachine.PNG";
