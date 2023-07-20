@@ -11,14 +11,15 @@ const Projects = (props) => {
                     <div key={project.id} id="project">
                         <Card>
                             <Card.Img variant="top" src={project.picture} />
+                            <div id="tech_stack">
+                                <div id="project-title">{project.title}</div>
+                                <div>{project.stack}</div>
+                                <a href={project.url} target='blank'>
+                                    <button className="button">View</button>
+                                </a>
+                            </div>
                         </Card>
-                        <div id="tech_stack">
-                            <div id="project-title">{project.title}</div>
-                            <div>{project.stack}</div>
-                            <a href={project.url} target='blank'>
-                                <button className="button">View</button>
-                            </a>
-                        </div>
+                        
                     </div>
                 );
             })}

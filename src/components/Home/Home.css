@@ -1,31 +1,36 @@
 .introPage {
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    background-image: url("../../img/bg4.jpg");
+    /*background-image: url("../../img/bg4.jpg");*/
 }
 #intro {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 2rem, 2rem;
-    
+    padding: 2rem; 
 }
+
 #intro>img {
-    margin-top: 7rem;
-    height: 250px;
-    box-shadow: rgba(0, 0, 0, 0.46) 0px 22px 70px 14px;
+    margin-top: 5rem;
+    height: 30vh;
+    width: 23vh;
+    box-shadow: rgba(245, 20, 20, 0.46) 0px 22px 70px 14px;
     border-radius: 100%;
     /*border: 2px solid var(--deepBlue);*/
 }
 #intro-title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 2rem;
-    font-size: 28px;
-    color: rgb(245, 92, 92);
-    font-weight: bolder;
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    color: #fde9ff;
+    font-weight: 900;
+    text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
     animation-duration: 3s;
     animation-name: slidein;
 }
@@ -47,50 +52,34 @@
   }
 #intro-summary {
     font-family: cursive;
-    font-size: normal;
+    font-size: clamp(1rem, 10vw, 1.2rem);
     text-align: center;
     font-weight: normal;
-    padding: 0 20vw;
+    padding: 0 16vw;
     margin-top: 0.5rem;
     line-height: 24px;
 }
 #resume-link {
     margin-top: 2rem;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .introPage {
         margin: 0 0;  
     }
     
-    #intro-summary {
-        padding: 0 8em;
-        font-size: normal;
-        font-weight: 100;
-        text-align: center;
-        line-height: 20px;
-    }
-    #intro>img {
-        width: 200px;
-        height: 180px;
-
-    }
-}
-@media screen and (max-width: 640px) {
-    .introPage {
-        margin: 12em 1em;  
-        /*background-image: url(../../img/bg.jpg);*/
-    }
     #intro {
         padding-left: 0em;
         padding-right: 0em;
+    }
+    #intro>img {
+        margin-top: 6.5em;
     }
     #intro-summary {
         padding: 0 2em;
         line-height: 20px;
         font-size: small;
     }
-    #intro>img {
-        width: 40vw;
-        height: 20vh;
-    }
+
 }
+
+

@@ -12,23 +12,26 @@
 }
 body{
   margin:0%;
+  background-color: var(--bgcolor);
+  color: azure;
 }
 .App{
     /*overflow: hidden;*/
-    color: var(--bgcolor);
+    color: white;
         
 }
-.button{
+button{
   border-radius: 34px;
   border: 1px solid var(--gray);
   color: rgb(239, 240, 245);
-  font-size: 16px;
-  padding:10px 5px 10px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: normal;
+  padding:10px 12px 10px 12px;
   background-color: var(--deepBlue);
   text-shadow: 1px 1px 1px rgb(60, 56, 97), 1px 1px 1px rgb(155, 122, 122);
   
 }
-.button:hover{
+button:hover{
   background: rgb(237, 236, 243);
   cursor: pointer;
   color: rgb(5, 2, 31);

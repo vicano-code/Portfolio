@@ -4,8 +4,6 @@
     flex-direction: column;
     height: auto;
     padding: 3em 12vw;
-    color: rgb(15, 1, 1);
-    background-image: url("../../img/bg4.jpg");
 }
 
 .skillsGrid {
@@ -23,33 +21,14 @@
     box-shadow: none;
   }
 
-/* Medium Screens min width 641px change to 4 columns */
-@media screen and (max-width: 800px) {
-  .skills {
-    /*margin: 0 0;*/
-    padding: 3em 3em;
-    text-align: center;
-  }
-    .skillsGrid{
-      grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
-      padding:0 2rem;
-
-    }
-    .skillsGrid img {
-    height: 100px;
-    width: 100px;
-    }
-  }
-  /* Small Screens max width 640px */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 540px) {
   .skills {
     margin: 0.1rem 0vw;
     text-align: center;
-}
+  }
     .skillsGrid{
       grid-template-columns: repeat(3, 1fr);
-      gap: 5px;
+
     }
     .skillsGrid img {
     height: 60px;
