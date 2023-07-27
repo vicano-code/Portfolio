@@ -4,7 +4,7 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div className="skills">
-            <h2>Skills</h2>
+            <h1>Skills</h1>
             <div className="skillsGrid">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react icon" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5 icon" />

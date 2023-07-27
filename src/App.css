@@ -1,7 +1,7 @@
 :root
 {
-    --bgcolor: rgb(29, 51, 61);
-    --navColor: #E81E25;
+    --bgcolor: #1c2930;
+    --navColor: rgb(185, 64, 64);
     --orange : #f5daae;
     --gray : #788097;
     --blueCard : #DDF8FE;
@@ -13,12 +13,10 @@
 body{
   margin:0%;
   background-color: var(--bgcolor);
-  color: azure;
+  color: rgb(229, 235, 235);
 }
 .App{
-    /*overflow: hidden;*/
-    color: white;
-        
+    /*overflow: hidden;*/     
 }
 button{
   border-radius: 34px;
@@ -37,19 +35,20 @@ button:hover{
   color: rgb(5, 2, 31);
   border: 1px solid var(--gray);
 }
-h2 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
   font-weight: bold;
-  padding-left: 2em;
-  color: var(--navColor)
+  color: #c48809;
+
 }
 @media screen and (min-width: 1480px) {
   body{
     margin:0%;
- 
   }
   .App{
       overflow: hidden;
       color: var(--black);   
   }
 }
+

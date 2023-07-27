@@ -36,7 +36,7 @@ const Navigbar = () => {
     return (
         <header className="n-wrapper">
             <div className="n-left">
-                <h3>Victor Anokwuru</h3>
+                <h3>VicAno</h3>
             </div>
             <nav className="n-mid">
                 <div className="n-list" >
@@ -45,20 +45,20 @@ const Navigbar = () => {
                     </Grid>
                     <ul id="navList" style={{ listStyleType: "none" }}>  
                         <Link spy={true} to='introPage' smooth={true} activeClass="activeClass">
-                            <li>HOME</li>
+                            <li>Home</li>
                         </Link>
                         <Link spy={true} to='AboutPage' smooth={true} activeClass="activeClass">
-                            <li>ABOUT</li>
+                            <li>About</li>
                         </Link>
                         <Link spy={true} to='education' smooth={true} activeClass="activeClass">
-                            <li>EDUCATION</li>
+                            <li>Education</li>
                         </Link>
                         <Link spy={true} to='skills' smooth={true} activeClass="activeClass">
-                            <li>SKILLS</li>
+                            <li>Skills</li>
                         </Link>
 
                         <Link spy={true} to='Portfolio' smooth={true} activeClass="activeClass">
-                            <li>PROJECTS</li>
+                            <li>Projects</li>
                         </Link>
                         
                     </ul>

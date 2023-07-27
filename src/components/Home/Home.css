@@ -22,37 +22,26 @@
 }
 #intro-title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:0.5rem;
+    font-size: clamp(2rem, 8vw, 2.2rem);
+    color: #c48809;
+    font-weight: 900;
+    text-shadow: 3px 1px 1px #86f0fa, 2px 2px 1px #fbfcfd, 4px 2px 1px rgb(221, 99, 99);
+}
+#intro-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 2rem;
-    font-size: clamp(2rem, 8vw, 2.8rem);
+    font-size: clamp(2rem, 8vw, 2.2rem);
     color: #fde9ff;
     font-weight: 900;
-    text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
-    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
-    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
-    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
-    9px 7px 1px #4af7ff;
+    text-shadow: 3px 1px 1px #037177, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff;
     animation-duration: 3s;
     animation-name: slidein;
 }
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-    75% {
-        font-size: 300%;
-        margin-left: 25%;
-        width: 150%;
-      }    
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+
 #intro-summary {
     font-family: cursive;
-    font-size: clamp(1rem, 10vw, 1.2rem);
+    font-size: clamp(0.8rem, 10vw, 1.0rem);
     text-align: center;
     font-weight: normal;
     padding: 0 16vw;
@@ -62,7 +51,7 @@
 #resume-link {
     margin-top: 2rem;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .introPage {
         margin: 0 0;  
     }

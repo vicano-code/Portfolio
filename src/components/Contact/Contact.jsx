@@ -22,7 +22,7 @@ const Contact = () => {
 
     return (
         <section className="contact-form">
-            <h2>Contact me</h2>
+            <h1>Contact Me</h1>
             <div className="c-form">
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="user_name" className="user" placeholder="Name" required/>
