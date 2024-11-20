@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
+import Cert0 from "../../img/ALX_Cert.png";
 import Cert1 from "../../img/Frontend_Cert_FreeCodeCamp.PNG";
 import Cert2 from "../../img/JavaScript_Algorithms_DataStructures_Cert.PNG";
 import Cert3 from "../../img/Responsive-web-design_Cert.PNG";
@@ -46,6 +47,7 @@ const About = () => {
           modules={[Navigation]}
           className="mySwiper"
         >
+          <SwiperSlide><img src={Cert0} alt="" /></SwiperSlide>
           <SwiperSlide><img src={Cert1} alt="" /></SwiperSlide>
           <SwiperSlide><img src={Cert2} alt="" /></SwiperSlide>
           <SwiperSlide><img src={Cert3} alt="" /></SwiperSlide>

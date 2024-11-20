@@ -16,10 +16,10 @@ import TypingSpeedTester from "./img/Typing_speed_app.JPG";
 var projectList = [
   {
     id: 0,
-    title: "E-Commerce Website",
+    title: "VC-Collections: E-commerce website",
     picture: WebShop,
-    url: "https://vic-webstore.netlify.app/",
-    stack: "HTML, CSS, JavaScript, React, Email.js",
+    url: "https://vc-collections.vercel.app/",
+    stack: "React, Node.js, Express, Redux, MongoDB, Stripe API, Ngrok",
   },
   {
     id: 1,
