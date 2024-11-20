@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css';
-import Vic from '../../img/Vic_Passport.jpg';
-import Resume from './Resume_Victor Anokwuru.pdf'
+import Vic from '../../img/Victor_Anokwuru_pic.jpg';
+import Resume from './Resume-Victor-Anokwuru.pdf'
 
 const Intro = () => {
     return (
