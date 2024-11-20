@@ -11,7 +11,7 @@ const Education = () => {
                             <th> Program</th>
                         </tr>
                         <tr>
-                            <td>2023 - Current</td>
+                            <td>Sep 2023 - Nov 2024</td>
                             <td> ALX Software Engineering Program</td>
                         </tr>
                         <tr>

@@ -20,23 +20,16 @@ const About = () => {
       <div id="about">
         <div>
           <p>
-            I hold a BSc in Petroleum Engineering from the Federal University of
-            Technology Owerri in Nigeria and an MSc in Petroleum Engineering
-            from the University of Stavanger in Norway.{" "}
-          </p>
-          <p>I have five years experience working as a seismic data processing geophysicist. The processing software for our job is installed on a linux workstation. As such, I had to learn how to work with file systems in linux. During the process, I helped the company to troubleshoot and solve some problems relating to the software functionality. In the process, I developed interest in software engineering. I took some web development courses on freeCodeCamp. </p>
-          <p>
-            Previously, I had some programming experience in Matlab. During my master program in Norway, we used Matlab to write models such as a model for
-            simulating drill cuttings removal during oil well drilling. I also
-            The Geostatistics course exposed me to intermediate/advanced Excel. Some time later, I learnt how program in Excel using ExcelVBA.{" "}
+            Hi, my name is Victor Chukwudi Anokwuru. Hello! I'm a skilled geophysicist turned software engineer who has recently graduated from the ALX Software Engineering Program. Throughout my journey, I've gained hands-on experience with full-stack development, working with modern technologies like JavaScript, React, Node.js, Express, and MongoDB. My background in problem-solving and analytical thinking has been honed through both my academic studies and personal projects.
           </p>
           <p>
-            I have acquired skills in HTML, CSS, JavaScript, React, D3, Python, SQL,
-            Data Science and Excel VBA through courses on coursera,
-            freecodecamp, w3schools, youtube and more. I am
-            currently working hard to improve my skills and expand my tech
-            stack. Although, I have faced some challenge finding intern/entry level positions, I am not giving up yet! </p>
-            <p>So if you are looking for someone who is HARDWORKING, TEACHABLE, COMMITTED, INNOVATIVE and A TEAM PLAYER, then just <span style={{color: 'red', fontSize: 'larger'}}>HIRE ME !!!</span>
+            I thrive in building efficient, scalable, and user-friendly web applications. Whether it's designing an intuitive user interface with React or crafting a robust backend API with Node.js, I take pride in creating seamless, high-performing experiences.
+          </p>
+          <p>
+            I am eager to continue expanding my skill set, tackling complex challenges, and contributing to impactful projects. As I venture into the tech industry, I'm excited to collaborate with like-minded professionals to create innovative solutions.
+          </p>
+          <p>
+            Feel free to browse through my portfolio to see my work, and don't hesitate to reach out if you'd like to connect or collaborate!
           </p>
         </div>
         <Education />
